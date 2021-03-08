@@ -18,8 +18,8 @@ module.exports = plugin(function({e, addVariant}) {
     addVariant(event, ({ modifySelectors, separator }) => {
       modifySelectors(({ className }) => {
         return [
-          `.${cls} .${e(`phx-click${separator}${className}`)}`,
-          `.${cls}.${e(`phx-click${separator}${className}`)}`
+          `.${cls} .${e(`${event}${separator}${className}`)}`,
+          `.${cls}.${e(`${event}${separator}${className}`)}`
         ]
       })
     })
