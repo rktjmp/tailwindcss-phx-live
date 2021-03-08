@@ -1,0 +1,21 @@
+{
+  "name": "tailwindcss-phx-live",
+  "version": "0.1.0",
+  "description": "A collection of Phoenix LiveView variants",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "phoenix",
+    "phoenix-liveview",
+    "liveview",
+    "tailwind",
+    "taliwindcss"
+  ],
+  "author": "Oliver Marriott",
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^2.0.3"
+  }
+}
