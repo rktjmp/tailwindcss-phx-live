@@ -1,7 +1,7 @@
 const plugin = require('tailwindcss/plugin')
 
 module.exports = plugin(function({e, addVariant}) {
-  events_classes = [
+  variants_events = [
     ["phx-click", "phx-click-loading"],
     ["phx-change", "phx-change-loading"],
     ["phx-submit", "phx-submit-loading"],
@@ -14,12 +14,12 @@ module.exports = plugin(function({e, addVariant}) {
     ["phx-error", "phx-error"],
   ]
 
-  for (let [event, cls] of events_classes) {
-    addVariant(event, ({ modifySelectors, separator }) => {
+  for (let [variant_name, phx_event_class] of variants_events) {
+    addVariant(variant_name, ({ modifySelectors, separator }) => {
       modifySelectors(({ className }) => {
         return [
-          `.${cls} .${e(`${event}${separator}${className}`)}`,
-          `.${cls}.${e(`${event}${separator}${className}`)}`
+          `.${phx_event_class} .${e(`${variant_name}${separator}${className}`)}`,
+          `.${phx_event_class}.${e(`${variant_name}${separator}${className}`)}`
         ]
       })
     })
