@@ -5,6 +5,8 @@ TailwindCSS-Phx-Live
 
 [github.com/rktjmp/tailwindcss-phx-live](https://github.com/rktjmp/tailwindcss-phx-live)
 
+[npmjs.com/package/tailwindcss-phx-live](https://www.npmjs.com/package/tailwindcss-phx-live)
+
 Variants
 ---
 
