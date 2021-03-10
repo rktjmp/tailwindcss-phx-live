@@ -3,6 +3,8 @@ TailwindCSS-Phx-Live
 
 `tailwindcss-phx-live` is a TailwindCSS plugin that provides variants for Phoenix LiveView's `phx-*-loading` events/css-classes.
 
+[github.com/rktjmp/tailwindcss-phx-live](https://github.com/rktjmp/tailwindcss-phx-live)
+
 Variants
 ---
 
@@ -36,6 +38,7 @@ You can use the variants on the "root" element or any child.
   <img class="loading-icon opacity-0 phx-click:opacity-100">
 </div>
 ````
+
 Configuration
 ---
 
@@ -54,5 +57,4 @@ module.exports = {
   ],
 }
 ```
-
 
