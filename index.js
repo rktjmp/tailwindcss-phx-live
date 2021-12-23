@@ -10,7 +10,7 @@ module.exports = plugin(function({e, addVariant}) {
     ["phx-keydown", "phx-keydown-loading"],
     ["phx-keyup", "phx-keyup-loading"],
     ["phx-connected", "phx-connected"],
-    ["phx-disconnected", "phx-disconnected"],
+    ["phx-loading", "phx-loading"],
     ["phx-error", "phx-error"],
   ]
 

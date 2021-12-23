@@ -21,7 +21,7 @@ Variants
 - `phx-keyup`
   - Applies to both `phx-keyup` and `phx-window-keyup`.
 - `phx-connected`
-- `phx-disconnected`
+- `phx-loading`
 - `phx-error`
 
 Usage
